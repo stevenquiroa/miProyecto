@@ -5,9 +5,11 @@ from django.template import Context
 from datetime import datetime
 
 def hola(request):
-	return HttpResponse("hola")
-
+	return HttpResponse("Hola usuario.")
 
 def home(request):
 	return HttpResponse("Estas en el index.")
+
+def adios(request):
+	return HttpResponse("Adios usuario.")
 	
