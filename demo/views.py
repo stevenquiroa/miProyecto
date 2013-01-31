@@ -8,3 +8,6 @@ def hola(request):
 	return HttpResponse("hola")
 
 
+def home(request):
+	return HttpResponse("Estas en el index.")
+	
